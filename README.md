@@ -82,11 +82,8 @@ Example: `Python 3.13.5` → look for **cp313** wheels.
 
 💡 Done! GDAL is installed.
 
-7. Check the version installed
-```bash
-   from osgeo import gdal
-   print(gdal.__version__)
-   ```
+7. Check the version installed, go to section [Testing GDAL](#-youre-ready)
+
 
 👉 Need help setting up a virtual environment on Windows?
 Check out this guide: [Windows Venv Setup](https://github.com/djayepro3/Windows-Venv-Python-Setup)
@@ -129,7 +126,7 @@ pip install gdal
 ```bash
 conda install -c conda-forge gdal
 ```
-
+Check the version installed, go to section [Testing GDAL](#-youre-ready)
 ---
 
 ## 🍏 Installation on macOS
@@ -150,7 +147,7 @@ pip install gdal
 ```bash
 conda install -c conda-forge gdal
 ```
-
+Check the version installed, go to section [Testing GDAL](#-youre-ready)
 ---
 
 ## 🔄 Alternative: Using Docker 🐳
