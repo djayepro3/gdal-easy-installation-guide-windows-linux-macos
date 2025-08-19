@@ -203,7 +203,12 @@ Now test if GDAL is working:
 
 ```python
 from osgeo import gdal
-print(gdal.VersionInfo())
+print(gdal.__version__)
+```
+
+Expected output (based on the version you installed):
+```bash
+3.11.1
 ```
 
 ---
