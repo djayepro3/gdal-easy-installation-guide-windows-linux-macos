@@ -67,7 +67,7 @@ Example: `Python 3.13.5` → look for **cp313** wheels.
    👉 [Geospatial Wheels - GitHub Releases](https://github.com/cgohlke/geospatial-wheels?tab=readme-ov-file)
 
 3. Go to the `Releases` Page
-4. Find and download the wheel file (`.whl`) matching:
+4. Find it in the `Assets` dropdown and download the wheel file (`.whl`) matching:
 
    * Your Python version (`cp313`, `cp312`, etc.)
    * Your architecture (`win_amd64` for 64-bit)
