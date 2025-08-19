@@ -1,5 +1,12 @@
 # 🌍 GDAL Installation Guide Made Easy 🚀
 
+> 📌 **Author:** Dishanand Jayeprokash  
+> 🗓️ **Created:** 19 August 2025  
+> ✏️ **Last Modified:** 19 August 2025  
+> 📘 **Covers:** GDAL • GDAL Installation Windows/Linuc/Mac OS • Alternative Installation Method • Troubleshooting
+
+---
+
 Welcome to **GDAL Made Simple** — your go-to guide for installing [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) with Python across **Windows 🪟**, **Linux 🐧**, and **macOS 🍏**.  
 
 Installing GDAL can be tricky due to system dependencies, but this guide provides **step-by-step instructions**, multiple methods (pip, conda, precompiled wheels), and troubleshooting help.
@@ -59,20 +66,27 @@ Example: `Python 3.13.5` → look for **cp313** wheels.
 2. Visit the **GDAL Precompiled Wheels** page by Christoph Gohlke:
    👉 [Geospatial Wheels - GitHub Releases](https://github.com/cgohlke/geospatial-wheels?tab=readme-ov-file)
 
-3. Download the wheel file (`.whl`) matching:
+3. Go to the `Releases` Page
+4. Find and download the wheel file (`.whl`) matching:
 
    * Your Python version (`cp313`, `cp312`, etc.)
    * Your architecture (`win_amd64` for 64-bit)
 
-4. Move the downloaded file into your project or virtual environment folder.
+5. Move the downloaded file into your current direcotry on VS Code (make sure your `Virtual Environment` is activated).
 
-5. Install it with pip:
+6. Install it with pip:
 
    ```bash
    pip install GDAL-<version>-cp313-cp313-win_amd64.whl
    ```
 
 💡 Done! GDAL is installed.
+
+7. Check the version installed
+```bash
+   from osgeo import gdal
+   print(gdal.__version__)
+   ```
 
 👉 Need help setting up a virtual environment on Windows?
 Check out this guide: [Windows Venv Setup](https://github.com/djayepro3/Windows-Venv-Python-Setup)
