@@ -2,7 +2,7 @@
 
 > 📌 **Author:** Dishanand Jayeprokash  
 > 🗓️ **Created:** 19 August 2025  
-> ✏️ **Last Modified:** 19 August 2025  
+> ✏️ **Last Modified:** 25 August 2025  
 > 📘 **Covers:** GDAL • GDAL Installation Windows/Linuc/Mac OS • Alternative Installation Method • Troubleshooting
 
 ---
@@ -165,7 +165,7 @@ docker run -it osgeo/gdal:latest gdalinfo --version
 ### 🔹 1. `pip install gdal` fails on Windows
 
 * This happens because no precompiled wheels are available for your Python version.
-* ✅ Solution: Use **precompiled wheels** or **conda**.
+* ✅ Solution: Use **precompiled wheels** or **conda**. Go to section [Installation on Windows](#-installation-on-windows)
 
 ---
 
