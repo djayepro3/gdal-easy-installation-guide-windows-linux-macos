@@ -2,7 +2,7 @@
 
 > 📌 **Author:** Dishanand Jayeprokash  
 > 🗓️ **Created:** 19 August 2025  
-> ✏️ **Last Modified:** 25 August 2025  
+> ✏️ **Last Modified:** 9 December 2025  
 > 📘 **Covers:** GDAL • GDAL Installation Windows/Linuc/Mac OS • Alternative Installation Method • Troubleshooting
 
 ---
