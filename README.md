@@ -72,7 +72,7 @@ Example: `Python 3.13.5` → look for **cp313** wheels.
    * Your Python version (`cp313`, `cp312`, etc.)
    * Your architecture (`win_amd64` for 64-bit)
 
-5. Move the downloaded file into your current direcotry on VS Code (make sure your `Virtual Environment` is activated).
+5. Move the downloaded file into your current directory on VS Code (make sure your `Virtual Environment` is activated).
 
 6. Install it with pip:
 
