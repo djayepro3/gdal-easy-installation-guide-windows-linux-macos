@@ -7,7 +7,7 @@
 
 ---
 
-Welcome to **GDAL Made Simple** — your go-to guide for installing [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) with Python across **Windows 🪟**, **Linux 🐧**, and **macOS 🍏**.  
+Welcome to **GDAL Made Simple** — your go-to guide for installing [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) with Python across **Windows**, **Linux 🐧**, and **macOS**.  
 
 Installing GDAL can be tricky due to system dependencies, but this guide provides **step-by-step instructions**, multiple methods (pip, conda, precompiled wheels), and troubleshooting help.
 
@@ -17,11 +17,11 @@ Installing GDAL can be tricky due to system dependencies, but this guide provide
 
 | OS          | Recommended Method | Command                                                                 |
 |-------------|-------------------|-------------------------------------------------------------------------|
-| **Windows** 🪟 | Precompiled Wheel  | Download from [Geospatial Wheels](https://github.com/cgohlke/geospatial-wheels) → `pip install <whl>` |
+| **Windows** | Precompiled Wheel  | Download from [Geospatial Wheels](https://github.com/cgohlke/geospatial-wheels) → `pip install <whl>` |
 |             | Conda             | `conda install -c conda-forge gdal`                                     |
 | **Linux** 🐧 | System + pip       | `sudo apt install gdal-bin libgdal-dev && pip install gdal`             |
 |             | Conda             | `conda install -c conda-forge gdal`                                     |
-| **macOS** 🍏 | Homebrew + pip     | `brew install gdal && pip install gdal`                                 |
+| **macOS**  | Homebrew + pip     | `brew install gdal && pip install gdal`                                 |
 |             | Conda             | `conda install -c conda-forge gdal`                                     |
 
 ---
