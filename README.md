@@ -129,7 +129,7 @@ conda install -c conda-forge gdal
 Check the version installed, go to section [Testing GDAL](#-youre-ready)
 ---
 
-## 🍏 Installation on macOS
+## Installation on macOS
 
 ### ✅ Method 1: Install via Homebrew
 
@@ -197,7 +197,7 @@ docker run -it osgeo/gdal:latest gdalinfo --version
 
 ---
 
-## 🎉 You’re Ready!
+## You’re Ready! 🎉
 
 Now test if GDAL is working:
 
@@ -213,7 +213,7 @@ Expected output (based on the version you installed):
 
 ---
 
-## 🛠️ Alternatives to GDAL
+## Alternatives to GDAL
 
 If you only need high-level geospatial functionality, consider:
 
