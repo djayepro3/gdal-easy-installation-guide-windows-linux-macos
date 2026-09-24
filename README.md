@@ -13,7 +13,7 @@ Installing GDAL can be tricky due to system dependencies, but this guide provide
 
 ---
 
-## ⚡ Quick Install Summary
+## Quick Install Summary
 
 | OS          | Recommended Method | Command                                                                 |
 |-------------|-------------------|-------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Installing GDAL can be tricky due to system dependencies, but this guide provide
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 1. [What is GDAL?](#-what-is-gdal)  
 2. [Installation on Windows](#-installation-on-windows)  
    - [Method 1: Precompiled Wheels](#-method-1-install-with-precompiled-wheels-recommended)  
@@ -45,13 +45,13 @@ Installing GDAL can be tricky due to system dependencies, but this guide provide
 
 ---
 
-## ✨ What is GDAL?
+## What is GDAL?
 GDAL is a powerful open-source library for reading, writing, and manipulating geospatial data (rasters, vectors, and more).  
 Many Python GIS libraries (`rasterio`, `fiona`, `geopandas`) rely on it.
 
 ---
 
-## 🖥️ Installation on Windows
+## Installation on Windows 🖥️
 
 ### ✅ Method 1: Install with Precompiled Wheels (Recommended)
 If `pip install gdal` fails on Windows, use **precompiled wheels**:
@@ -100,7 +100,7 @@ conda install -c conda-forge gdal
 
 ---
 
-## 🐧 Installation on Linux
+## Installation on Linux 🐧
 
 ### ✅ Method 1: Install via Package Manager
 
@@ -150,7 +150,7 @@ conda install -c conda-forge gdal
 Check the version installed, go to section [Testing GDAL](#-youre-ready)
 ---
 
-## 🔄 Alternative: Using Docker 🐳
+## Alternative: Using Docker 🐳
 
 If installation is still tricky, you can use GDAL inside a Docker container:
 
